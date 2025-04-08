@@ -1,9 +1,6 @@
-//import userData from '../fixtures/userData.json'
-import LoginPage from '../pages/loginPage.js'
-//import HomePage from '../pages/homePage'
+import LoginPage from '../pages/loginPage'
 
 const loginPage = new LoginPage()
-//const homePage = new HomePage()
 
 describe("Cy.Heroe Test", () => {
 

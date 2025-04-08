@@ -1,11 +1,11 @@
 class LoginPage {
     selectorsList() {
         const selectors = {
-            loginButton: 'li > .undefined',
+            loginButton: '.justify-between .gap-8 button',
             emailField: '[data-cy="email"]',
             passwordField: '[data-cy="password"]',
             signInButton: 'button.bg-blue-700',
-            homePage: 'a > .undefined',
+            homePage: "[href='/heroes/new']",
             wrongCredentialAlert: '.text-red-500'
         }
 
